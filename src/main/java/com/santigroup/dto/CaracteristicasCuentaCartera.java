@@ -3,6 +3,7 @@ package com.santigroup.dto;
 import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "CaracteristicasCuentaCartera", namespace = "http://www.mibanco.com/CaracteristicasCuentaCartera")
 public class CaracteristicasCuentaCartera {
     @XmlAttribute(name = "tipoCuenta")
     private String tipoCuenta;

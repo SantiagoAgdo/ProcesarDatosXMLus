@@ -53,7 +53,7 @@ public class CuentaCartera {
     @XmlAttribute(name = "identificacion")
     private String identificacion;
 
-    @XmlAttribute(name = "sector")
+    @XmlAttribute(name = "sectorCuentaCartera")
     private int sector;
 
     @XmlAttribute(name = "calificacionHD")
@@ -62,7 +62,7 @@ public class CuentaCartera {
     @XmlElement(name = "Caracteristicas")
     private CaracteristicasCuentaCartera caracteristicas;
 
-    @XmlElement(name = "Valores")
+    @XmlElement(name = "ValoresCuentaCartera")
     private ValoresCuentaCartera valores;
 
     @XmlElementWrapper(name = "Estados")

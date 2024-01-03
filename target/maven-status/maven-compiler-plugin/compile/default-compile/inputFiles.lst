@@ -1,31 +1,69 @@
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Identificacion.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/ValoresCuentaCartera.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EstadoPago.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/ValorCuentaCartera.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/NaturalNacional.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EstadoTarjeta.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Razon.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/IdentificacionDemografica.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Valores.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EstadoOrigen.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EstadoPlastico.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/InfoDemografica.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Edad.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EndeudamientoGlobal.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/ValorTarjeta.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/TarjetaCredito.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/CaracteristicasCuentaCartera.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/CuentaCartera.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EstadoCuenta.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Informe.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/CaracteristicasTarjeta.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/EstadoCuentaCartera.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Informes.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Score.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/ExampleResource.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Valor.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Estado.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/CuentaAhorro.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Caracteristicas.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/Consulta.java
-/Users/santiagoagudelo/Documents/Proyectos Mi Banco/ProcesarDatosXMLus/src/main/java/com/santigroup/dto/OperacionesInternacionales.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Trimestre.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Edad.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TarjetaCredito.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TotalesHistoricoSaldos.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Score.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/IdentificacionDemografica.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/VectorSaldosYMoras.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/PerfilGeneral.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EndeudamientoActual.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ComposicionPortafolio.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Cheques.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Principales.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ResumenInfoAgregadaMicrocredito.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/ExampleResource.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/InfoDemografica.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/AnalisisPromedio.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Valor.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoTarjeta.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Caracteristicas.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Creditos.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/OperacionesInternacionales.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TrimestreResumenEndeudamiento.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/CaracteristicasCuentaCartera.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ValoresCuentaCartera.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Informes.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/CaracteristicasTarjeta.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Sector.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ResumenEndeudamiento.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EndeudamientoGlobal.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ValorTarjeta.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EvolucionDeuda.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoCuentaCartera.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Razon.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TipoCuentaComposicionPortafolio.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Totales.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TipoCuenta.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoOrigen.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Linea.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Cartera.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/LineaRespuestaPersonalizada.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ValorCuentaCartera.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Valores.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Saldos.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoCuenta.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TrimestreTipoCuentaHistorico.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/NaturalNacional.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/ImagenTendenciaEndeudamiento.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Comportamiento.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Estado.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Identificacion.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/MesComportamiento.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/MesSaldos.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Informe.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/HistoricoSaldos.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Resumen.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/AntiguedadDesde.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/CuentaAhorro.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/CuentaCartera.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoTipoCuenta.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/InfoAgregada.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoPlastico.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EstadoPago.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/InfoAgregadaMicrocredito.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/EvolucionDeudaInfoAgregadaMicrocredito.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/RespuestaPersonalizada.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/TipoCuentaHistorico.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/SectorTrimestreResumenEndeudamiento.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/AnalisisVectores.java
+/Users/santiagoagudelo/Documents/santigroup Developers/procesarDatosXML4/src/main/java/com/santigroup/dto/Consulta.java

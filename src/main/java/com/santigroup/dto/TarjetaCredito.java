@@ -4,6 +4,7 @@ import javax.xml.bind.annotation.*;
 import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "TarjetaCredito", namespace = "http://www.mibanco.com/TarjetaCredito")
 public class TarjetaCredito {
 
     @XmlAttribute(name = "bloqueada")

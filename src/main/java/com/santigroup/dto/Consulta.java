@@ -3,6 +3,7 @@ package com.santigroup.dto;
 import javax.xml.bind.annotation.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "Consulta", namespace = "http://www.mibanco.com/Consulta")
 public class Consulta {
 
     @XmlAttribute(name = "fecha")
@@ -29,7 +30,7 @@ public class Consulta {
     @XmlAttribute(name = "nitSuscriptor")
     private String nitSuscriptor;
 
-    @XmlAttribute(name = "sector")
+    @XmlAttribute(name = "sectorConsulta")
     private String sector;
 
     @XmlElement(name = "Llave")

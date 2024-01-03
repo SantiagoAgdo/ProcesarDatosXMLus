@@ -44,6 +44,14 @@ public class Informe {
     @XmlElement(name = "Consulta")
     private List<Consulta> consultas;
 
-    // Getters y setters...
+    @XmlElement(name = "RespuestaPersonalizada")
+    private RespuestaPersonalizada respuestaPersonalizada;
+
+    @XmlElement(name = "InfoAgregada")
+    private List<InfoAgregada> infoAgregada;
+
+    @XmlElement(name = "InfoAgregadaMicrocredito")
+    private List<InfoAgregadaMicrocredito> infoAgregadaMicrocredito;
+
 }
 

@@ -39,11 +39,8 @@ public class EndeudamientoGlobal {
     @XmlElement(name = "Llave")
     private String llave;
 
-    // Getters y setters...
-
-    // Clases para elementos anidados...
-
     @XmlAccessorType(XmlAccessType.FIELD)
+    @XmlType(name = "Entidad", namespace = "http://www.mibanco.com/Entidad")
     public static class Entidad {
         @XmlAttribute(name = "nombre")
         private String nombre;
@@ -58,6 +55,7 @@ public class EndeudamientoGlobal {
     }
 
     @XmlAccessorType(XmlAccessType.FIELD)
+    @XmlType(name = "Garantia", namespace = "http://www.mibanco.com/Garantia")
     public static class Garantia {
         @XmlAttribute(name = "tipo")
         private String tipo;

@@ -35,7 +35,7 @@ public class CuentaAhorro {
     @XmlAttribute(name = "identificacion")
     private String identificacion;
 
-    @XmlAttribute(name = "sector")
+    @XmlAttribute(name = "sectorCuentaAhorro")
     private int sector;
 
     // Atributos adicionales según el XML (como calificacion, etc.)
@@ -43,7 +43,7 @@ public class CuentaAhorro {
     @XmlElement(name = "Caracteristicas")
     private Caracteristicas caracteristicas;
 
-    @XmlElement(name = "Valores")
+    @XmlElement(name = "ValoresCuentaAhorro")
     private Valores valores;
 
     @XmlElement(name = "Estado")
