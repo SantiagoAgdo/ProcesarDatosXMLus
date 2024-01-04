@@ -1,0 +1,88 @@
+openapi: 3.0.1
+servers:
+  - description: Índice de Swagger
+    url: https://api.mibanco.com.co
+info:
+  description: Servicio utilidad Procesar XML.
+  version: 1.0.0
+  title: ProcesarDatosXML_US
+  contact:
+    name: MiBanco
+    url: https://www.mibanco.com.co/
+    email: api@mibanco.com.co
+  license:
+    name: GNU GPLv3
+    url: https://www.gnu.org/licenses/gpl-3.0.html
+tags:
+  - name: Procesar Datos
+    description: Procesar Datos XML
+#----------------------------
+#Endpoints
+#----------------------------
+paths:
+  /v1/es/procesar-datos-xml:
+    post:
+      tags:
+        - Procesar Datos XML
+      operationId: procesarDatosXML
+      requestBody:
+        description: Procesamiento De Datos XML a Obj
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        "200":
+          description: Obtener Datos.
+          content:
+            application/json:
+              schema:
+                type: object
+        "400":
+          description: Petición con datos inválidos
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        "404":
+          description: "Error al Procesar Datos."
+        default:
+          description: Error inesperado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+#---------------------------------------------
+#Se declaran los Modelos/Schemas del servicio
+#---------------------------------------------
+
+components:
+  schemas:
+    #   ERRORES
+    Error:
+      type: object
+      properties:
+        status:
+          type: integer
+          example: 400
+        message:
+          type: string
+          example: "The request is invalid."
+      required:
+        - status
+        - message
+
+  responses:
+    NotFound:
+      description: The specified resource was not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'

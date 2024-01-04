@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+//Configs
+option java_multiple_files = true;
+option java_package = "com.mibanco.procesardatosxml.us";
+option java_outer_classname = "ProcesarDatosXMLgRPC";
+
+package ProcesarDatosXMLgRPC;
+
+//Types
+message InformeXML {
+  string xml = 1;
+}
+
+message RptInforme {
+  string jsonRpt = 1;
+}
+
+service ProcesarDatosService {
+   rpc datosXMLObj(InformeXML) returns (RptInforme);
+}
