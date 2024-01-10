@@ -20,7 +20,7 @@ InformeXMLOrBuilder {
     }
 
     private InformeXML() {
-        xml_ = "";
+        xml_ = com.google.protobuf.ByteString.EMPTY;
     }
 
     @java.lang.Override
@@ -40,40 +40,15 @@ InformeXMLOrBuilder {
 
     public static final int XML_FIELD_NUMBER = 1;
 
-    @SuppressWarnings("serial")
-    private volatile java.lang.Object xml_ = "";
+    private com.google.protobuf.ByteString xml_ = com.google.protobuf.ByteString.EMPTY;
 
     /**
-     * <code>string xml = 1;</code>
+     * <code>bytes xml = 1;</code>
      * @return The xml.
      */
     @java.lang.Override
-    public java.lang.String getXml() {
-        java.lang.Object ref = xml_;
-        if (ref instanceof java.lang.String) {
-            return (java.lang.String) ref;
-        } else {
-            com.google.protobuf.ByteString bs = (com.google.protobuf.ByteString) ref;
-            java.lang.String s = bs.toStringUtf8();
-            xml_ = s;
-            return s;
-        }
-    }
-
-    /**
-     * <code>string xml = 1;</code>
-     * @return The bytes for xml.
-     */
-    @java.lang.Override
-    public com.google.protobuf.ByteString getXmlBytes() {
-        java.lang.Object ref = xml_;
-        if (ref instanceof java.lang.String) {
-            com.google.protobuf.ByteString b = com.google.protobuf.ByteString.copyFromUtf8((java.lang.String) ref);
-            xml_ = b;
-            return b;
-        } else {
-            return (com.google.protobuf.ByteString) ref;
-        }
+    public com.google.protobuf.ByteString getXml() {
+        return xml_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -91,8 +66,8 @@ InformeXMLOrBuilder {
 
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output) throws java.io.IOException {
-        if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(xml_)) {
-            com.google.protobuf.GeneratedMessageV3.writeString(output, 1, xml_);
+        if (!xml_.isEmpty()) {
+            output.writeBytes(1, xml_);
         }
         getUnknownFields().writeTo(output);
     }
@@ -103,8 +78,8 @@ InformeXMLOrBuilder {
         if (size != -1)
             return size;
         size = 0;
-        if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(xml_)) {
-            size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, xml_);
+        if (!xml_.isEmpty()) {
+            size += com.google.protobuf.CodedOutputStream.computeBytesSize(1, xml_);
         }
         size += getUnknownFields().getSerializedSize();
         memoizedSize = size;
@@ -244,7 +219,7 @@ InformeXMLOrBuilder {
         public Builder clear() {
             super.clear();
             bitField0_ = 0;
-            xml_ = "";
+            xml_ = com.google.protobuf.ByteString.EMPTY;
             return this;
         }
 
@@ -327,10 +302,8 @@ InformeXMLOrBuilder {
         public Builder mergeFrom(com.mibanco.procesardatosxml.us.InformeXML other) {
             if (other == com.mibanco.procesardatosxml.us.InformeXML.getDefaultInstance())
                 return this;
-            if (!other.getXml().isEmpty()) {
-                xml_ = other.xml_;
-                bitField0_ |= 0x00000001;
-                onChanged();
+            if (other.getXml() != com.google.protobuf.ByteString.EMPTY) {
+                setXml(other.getXml());
             }
             this.mergeUnknownFields(other.getUnknownFields());
             onChanged();
@@ -357,7 +330,7 @@ InformeXMLOrBuilder {
                             break;
                         case 10:
                             {
-                                xml_ = input.readStringRequireUtf8();
+                                xml_ = input.readBytes();
                                 bitField0_ |= 0x00000001;
                                 break;
                             }
@@ -385,45 +358,23 @@ InformeXMLOrBuilder {
 
         private int bitField0_;
 
-        private java.lang.Object xml_ = "";
+        private com.google.protobuf.ByteString xml_ = com.google.protobuf.ByteString.EMPTY;
 
         /**
-         * <code>string xml = 1;</code>
+         * <code>bytes xml = 1;</code>
          * @return The xml.
          */
-        public java.lang.String getXml() {
-            java.lang.Object ref = xml_;
-            if (!(ref instanceof java.lang.String)) {
-                com.google.protobuf.ByteString bs = (com.google.protobuf.ByteString) ref;
-                java.lang.String s = bs.toStringUtf8();
-                xml_ = s;
-                return s;
-            } else {
-                return (java.lang.String) ref;
-            }
+        @java.lang.Override
+        public com.google.protobuf.ByteString getXml() {
+            return xml_;
         }
 
         /**
-         * <code>string xml = 1;</code>
-         * @return The bytes for xml.
-         */
-        public com.google.protobuf.ByteString getXmlBytes() {
-            java.lang.Object ref = xml_;
-            if (ref instanceof String) {
-                com.google.protobuf.ByteString b = com.google.protobuf.ByteString.copyFromUtf8((java.lang.String) ref);
-                xml_ = b;
-                return b;
-            } else {
-                return (com.google.protobuf.ByteString) ref;
-            }
-        }
-
-        /**
-         * <code>string xml = 1;</code>
+         * <code>bytes xml = 1;</code>
          * @param value The xml to set.
          * @return This builder for chaining.
          */
-        public Builder setXml(java.lang.String value) {
+        public Builder setXml(com.google.protobuf.ByteString value) {
             if (value == null) {
                 throw new NullPointerException();
             }
@@ -434,28 +385,12 @@ InformeXMLOrBuilder {
         }
 
         /**
-         * <code>string xml = 1;</code>
+         * <code>bytes xml = 1;</code>
          * @return This builder for chaining.
          */
         public Builder clearXml() {
-            xml_ = getDefaultInstance().getXml();
             bitField0_ = (bitField0_ & ~0x00000001);
-            onChanged();
-            return this;
-        }
-
-        /**
-         * <code>string xml = 1;</code>
-         * @param value The bytes for xml to set.
-         * @return This builder for chaining.
-         */
-        public Builder setXmlBytes(com.google.protobuf.ByteString value) {
-            if (value == null) {
-                throw new NullPointerException();
-            }
-            checkByteStringIsUtf8(value);
-            xml_ = value;
-            bitField0_ |= 0x00000001;
+            xml_ = getDefaultInstance().getXml();
             onChanged();
             return this;
         }

@@ -13,7 +13,7 @@ public class ProcesarDatosValidator {
     public static final Logger logger = LoggerFactory.getLogger(ProcesarDatosValidator.class);
 
 
-    public void validarXMl(String xml) throws ApplicationExceptionValidation {
+    public void validarXMl(byte[] xml) throws ApplicationExceptionValidation {
         logger.info("Inicia Validaciones");
         if (xml == null) {
             throw new ApplicationExceptionValidation(

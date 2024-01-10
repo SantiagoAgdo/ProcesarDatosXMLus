@@ -17,7 +17,7 @@ public class ProcesarDatosXMLImpl implements ProcesarDatosService {
     public static final Logger LOG = LoggerFactory.getLogger(ProcesarDatosXMLImpl.class);
 
     @Override
-    public Informes procesarDatosXml(String xml) throws Exception {
+    public Informes procesarDatosXml(byte[] xml) throws Exception {
         LOG.info("Inicia proceso tranformacion XML");
         Informes informes = parseXMLtoInforme(xml);
 
@@ -26,12 +26,12 @@ public class ProcesarDatosXMLImpl implements ProcesarDatosService {
 
     }
 
-    public Informes parseXMLtoInforme(String xmlContent) throws Exception {
+    private Informes parseXMLtoInforme(byte[] xmlContent) throws Exception {
 
         JAXBContext context = JAXBContext.newInstance(Informes.class);
         Unmarshaller unmarshaller = context.createUnmarshaller();
 
-        StringReader reader = new StringReader(xmlContent);
+        StringReader reader = new StringReader(new String(xmlContent, "UTF-8"));
         Informes informes = (Informes) unmarshaller.unmarshal(reader);
 
         return informes;

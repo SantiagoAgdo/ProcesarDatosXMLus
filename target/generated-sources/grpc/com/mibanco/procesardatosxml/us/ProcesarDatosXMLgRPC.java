@@ -29,7 +29,7 @@ public final class ProcesarDatosXMLgRPC {
     private static com.google.protobuf.Descriptors.FileDescriptor descriptor;
 
     static {
-        java.lang.String[] descriptorData = { "\n\026ProcesarDatosXML.proto\022\024ProcesarDatosX" + "MLgRPC\"\031\n\nInformeXML\022\013\n\003xml\030\001 \001(\t\"\035\n\nRpt" + "Informe\022\017\n\007jsonRpt\030\001 \001(\t2i\n\024ProcesarDato" + "sService\022Q\n\013datosXMLObj\022 .ProcesarDatosX" + "MLgRPC.InformeXML\032 .ProcesarDatosXMLgRPC" + ".RptInformeB9\n\037com.mibanco.procesardatos" + "xml.usB\024ProcesarDatosXMLgRPCP\001b\006proto3" };
+        java.lang.String[] descriptorData = { "\n\026ProcesarDatosXML.proto\022\024ProcesarDatosX" + "MLgRPC\"\031\n\nInformeXML\022\013\n\003xml\030\001 \001(\014\"\035\n\nRpt" + "Informe\022\017\n\007jsonRpt\030\001 \001(\t2i\n\024ProcesarDato" + "sService\022Q\n\013datosXMLObj\022 .ProcesarDatosX" + "MLgRPC.InformeXML\032 .ProcesarDatosXMLgRPC" + ".RptInformeB9\n\037com.mibanco.procesardatos" + "xml.usB\024ProcesarDatosXMLgRPCP\001b\006proto3" };
         descriptor = com.google.protobuf.Descriptors.FileDescriptor.internalBuildGeneratedFileFrom(descriptorData, new com.google.protobuf.Descriptors.FileDescriptor[] {});
         internal_static_ProcesarDatosXMLgRPC_InformeXML_descriptor = getDescriptor().getMessageTypes().get(0);
         internal_static_ProcesarDatosXMLgRPC_InformeXML_fieldAccessorTable = new com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(internal_static_ProcesarDatosXMLgRPC_InformeXML_descriptor, new java.lang.String[] { "Xml" });

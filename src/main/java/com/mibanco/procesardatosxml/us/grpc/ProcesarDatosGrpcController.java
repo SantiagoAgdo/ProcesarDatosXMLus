@@ -36,11 +36,12 @@ public class ProcesarDatosGrpcController extends ProcesarDatosServiceGrpc.Proces
     @Override
     @Blocking
     public void datosXMLObj(InformeXML request, StreamObserver<RptInforme> responseObs){
+
         LOG.info("Inicia Procesamiento de datos XML por GRPC");
         try {
 
-            validator.validarXMl(request.getXml());
-            Informes alertaListType = service.procesarDatosXml(request.getXml());
+            validator.validarXMl(request.getXml().toByteArray());
+            Informes alertaListType = service.procesarDatosXml(request.getXml().toByteArray());
 
             String jsonString = mapperGrpc.objToJson(alertaListType);
             RptInforme responseInforme = RptInforme.newBuilder().setJsonRpt(jsonString).build();

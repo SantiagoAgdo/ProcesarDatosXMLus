@@ -6,14 +6,8 @@ public interface InformeXMLOrBuilder extends // @@protoc_insertion_point(interfa
 com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string xml = 1;</code>
+     * <code>bytes xml = 1;</code>
      * @return The xml.
      */
-    java.lang.String getXml();
-
-    /**
-     * <code>string xml = 1;</code>
-     * @return The bytes for xml.
-     */
-    com.google.protobuf.ByteString getXmlBytes();
+    com.google.protobuf.ByteString getXml();
 }

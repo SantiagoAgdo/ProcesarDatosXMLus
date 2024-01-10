@@ -4,5 +4,5 @@ import com.mibanco.procesardatosxml.us.dto.Informes;
 
 public interface ProcesarDatosService {
 
-    Informes procesarDatosXml(String xml) throws Exception;
+    Informes procesarDatosXml(byte[] xml) throws Exception;
 }

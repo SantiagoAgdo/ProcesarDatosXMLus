@@ -9,7 +9,7 @@ package ProcesarDatosXMLgRPC;
 
 //Types
 message InformeXML {
-  string xml = 1;
+  bytes xml = 1;
 }
 
 message RptInforme {
